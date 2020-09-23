@@ -1,38 +1,31 @@
 * {
- box-sizing: border-box;
- margin: 0px;
- padding: 0;
-}
-.Top {
-
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0;
 }
 
+/* Altezza e Gestione Row */
 .row {
-height: 100px;
+  height: 100px;
 }
 
-.row-1 {
-background-color: #F4F9FD;
+.logInRow {
+  background-color: #F4F9FD;
 }
 
-.row-2 {
+.logoRow {
   background-color: #FFFFFF;
 }
 
-.main {
+.main {}
 
-}
-
-.block-1 {
-background-color: #FFF2EF;
-}
-
-.main-block-height{
+/* Altezza Blocchi e Gestione dei Blocchi principali*/
+.main-block-height {
   height: 500px;
 }
 
-.end-block{
-  height: 300px;
+.block-1 {
+  background-color: #FFF2EF;
 }
 
 .separator {
@@ -44,6 +37,11 @@ background-color: #FFF2EF;
 
 .block-2 {
   background-color: #F4F9FD;
+}
+
+/* Altezza e Gestione dei Blocchi Finali e del Footer*/
+.end-block {
+  height: 300px;
 }
 
 .block-3 {
