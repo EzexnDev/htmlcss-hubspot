@@ -64,6 +64,11 @@ position: relative;
   border: 1px solid black;
 }
 
+.col-80{
+  width: 80%;
+  border: 1px solid black;
+}
+
 .col-67{
   width: calc(100%* 2/3);
   border: 1px solid black;
@@ -94,6 +99,7 @@ position: relative;
   border: 1px solid black;
 }
 
+
 /* Height Colonne*/
 
 
@@ -107,6 +113,10 @@ position: relative;
 
 .h-300{
   height: 300px;
+}
+
+.h-250{
+  height: 250px;
 }
 
 .h-200{
@@ -236,4 +246,33 @@ ul.menu li:hover {
   top: 0%;
   right: 50%;
   transform: translate(50%, 70%);
+  text-align: center;
+}
+
+.freeHubspot{
+  background-color: white;
+  border-radius: 4px;
+  position: absolute;
+  top: 50%;
+  right: 0%;
+}
+
+.learn-more{
+  position: absolute;
+  top: 50%;
+  right: 50%;
+}
+
+.learn-more-text{
+  position: absolute;
+  top: 50%;
+  right: 15%;
+}
+
+
+.cards{
+  position: absolute;
+  top: 0%;
+  right: 10%;
+
 }
