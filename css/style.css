@@ -64,8 +64,8 @@ position: relative;
   border: 1px solid black;
 }
 
-.col-80{
-  width: 80%;
+.col-90{
+  width: 90%;
   border: 1px solid black;
 }
 
@@ -265,14 +265,27 @@ ul.menu li:hover {
 
 .learn-more-text{
   position: absolute;
-  top: 50%;
-  right: 15%;
+  top: 30%;
+  left: 5%;
 }
 
 
 .cards{
   position: absolute;
   top: 0%;
-  right: 10%;
+  right: 5%;
+  text-align: center;
+}
 
+.bullet-list-h2, .bullet-list, .col-90 button{
+  margin-top: 20%;
+}
+
+hr {
+  margin-top: 30%;
+}
+
+.bullet-list li {
+  list-style-type: none;
+  text-align: left;
 }
