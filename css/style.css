@@ -1,8 +1,10 @@
 *{
   margin: 0;
   padding: 0;
-  box-sizing: border-box
+  box-sizing: border-box;
+  font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+
 
 .root-container {
 position: relative;
@@ -61,32 +63,38 @@ position: relative;
 
 .col-100{
   width: 100%;
-  border: 1px solid black;
+  /*   border: 1px solid black;  */
+
 }
 
 .col-90{
   width: 90%;
-  border: 1px solid black;
+  /*   border: 1px solid black;  */
+
 }
 
 .col-67{
   width: calc(100%* 2/3);
-  border: 1px solid black;
+  /*   border: 1px solid black;  */
+
 }
 
 .col-60{
   width: 60%;
-  border: 1px solid black;
+  /*   border: 1px solid black;  */
+
 }
 
 .col-50 {
   width: 50%;
-  border: 1px solid black;
+  /*   border: 1px solid black;  */
+
 }
 
 .col-33{
   width: calc(100% * 1/3);
-  border: 1px solid black;
+  /*   border: 1px solid black;  */
+
 }
 
 .col-25{
@@ -95,7 +103,30 @@ position: relative;
 
 .col-20 {
   width: calc(100% * 1/5);
-  border: 1px solid black;
+  /*   border: 1px solid black;  */
+
+}
+
+.col-12{
+  width: 12.5%;
+}
+.tabtitle{
+  margin-top: 50px;
+  color: white;
+  text-align: center;
+}
+
+.tab{
+  margin-bottom: 10%;
+}
+
+.tabcell{
+  text-align: center;
+  margin-top: +20%;
+  color: white;
+}
+.tabcell{
+  margin-left: 2%;
 }
 
 .tab-up{
@@ -105,9 +136,20 @@ position: relative;
   border-right: 1px solid white;
 }
 
+.lastcellup{
+  border-bottom: 1px solid white;
+}
+
+
 /* Height Colonne*/
 
+.h-800{
+  height: 800px;
+}
 
+.h-550{
+  height: 550px;
+}
 .h-500{
   height: 500px;
 }
@@ -166,6 +208,14 @@ position: relative;
   display: inline-block;
   border-radius: 5px;
   height: 35px;
+  font-size: 14px;
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 4px;
+  background-color: coral;
+  border: none;
+  color: #32495b;
+  padding: 8px 10px;
 }
 
 .log {
@@ -184,7 +234,7 @@ position: relative;
 }
 
 .contactHubSpot{
-  background-color: #lightgrey;
+  background-color: #FFFFFF;
 }
 
 .getHubSpot span {
@@ -240,6 +290,18 @@ ul.menu li:hover {
 
 }
 
+.mainPhrase{
+  margin-top: 10%;
+}
+.mainPhrase h1, .mainPhrase button{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.subtitle{
+  font-size: 10px;
+}
+
 .bgimg{
   width: 100%;
   height: 400px;
@@ -262,18 +324,29 @@ ul.menu li:hover {
   text-align: center;
 }
 
+.powerfull img{
+  margin-top: -20%;
+  margin-left: 5%;
+}
+
 .freeHubspot{
   background-color: white;
   border-radius: 4px;
   position: absolute;
-  top: 50%;
+  top: 45%;
   right: 0%;
+  border: 1px solid #E6ECF0;
+  box-shadow: 0 0 5px 1px #E6ECF0;
 }
 
 .learn-more{
   position: absolute;
-  top: 50%;
-  right: 50%;
+  top: 15%;
+  right: 25%;
+}
+.learn-more button{
+  position: absolute;
+  right: 10%;
 }
 
 .learn-more-text{
@@ -282,20 +355,56 @@ ul.menu li:hover {
   left: 5%;
 }
 
+.freeCRM{
+  margin-bottom: 30px;
+  margin-top: -30px;
+}
+
+.fa-check-circle{
+  color: coral;
+}
+.fa-check-circle span{
+  color: black;
+  margin-left: 15px;
+  margin-right: 20px;
+}
+
+.cardscheck{
+  margin-left: 12%;
+}
 
 .cards{
-  position: absolute;
-  top: 0%;
-  right: 5%;
+  margin-top: -10%;
   text-align: center;
+  background-color: white;
+  border-radius: 1%;
+  border: 1px solid #E6ECF0;
+  box-shadow: 0 0 5px 1px #E6ECF0;
+}
+
+.cardsbutton {
+  margin-top: 10px;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 4px;
+  background-color: coral;
+  border: none;
+  color: #32495b;
+  padding: 8px 10px;
+}
+
+.cardsbutton span{
+  font-size: 20px;
 }
 
 .bullet-list-h2, .bullet-list, .col-90 button{
-  margin-top: 20%;
+  margin-top: 15%;
 }
 
-.service hr{
-  margin-top: 21%;
+.saleshub hr{
+  margin-top: 30%;
 }
 
 hr {
@@ -306,15 +415,6 @@ hr {
   list-style-type: none;
   text-align: left;
 }
-
-
-
-
-
-
-
-
-
 
 
 
