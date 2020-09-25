@@ -416,6 +416,27 @@ hr {
   text-align: left;
 }
 
+.sect4{
+  margin-top: 10%
+}
+
+.sect4-text h1, .sect4-text p{
+  padding-bottom: 5%;
+}
+
+.numb{
+  text-align: center;
+}
+
+.logos img{
+  padding-left: 10%;
+}
+
+.person img{
+  width: 60%;
+  height: 60%
+}
+
 
 
 .footer h2{
