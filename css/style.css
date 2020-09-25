@@ -183,6 +183,10 @@ position: relative;
   background-color: #FE775A;
 }
 
+.contactHubSpot{
+  background-color: #lightgrey;
+}
+
 .getHubSpot span {
   padding: 5px;
   color: white;
@@ -290,6 +294,10 @@ ul.menu li:hover {
   margin-top: 20%;
 }
 
+.service hr{
+  margin-top: 21%;
+}
+
 hr {
   margin-top: 30%;
 }
@@ -297,4 +305,27 @@ hr {
 .bullet-list li {
   list-style-type: none;
   text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.footer h2{
+  color: white;
+  margin-bottom: 10%;
+  margin-top: 10%;
+}
+.bullet-list-footer li {
+  text-align: left;
+  margin-bottom: 3%;
+  list-style-type: none;
+  color: white;
 }
