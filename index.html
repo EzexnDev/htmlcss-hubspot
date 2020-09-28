@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>HubSpot</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-  </head>
 
-  <body>
-    <div class="root-container">
+<head>
+  <meta charset="utf-8">
+  <title>HubSpot</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="root-container">
+    <header>
+      <!--        Login & Languages Selection       -->
+
       <div class="header-row-1-color">
-        <div class="row">
+        <div class="pageMargin">
           <div class="col col-50 h-100">
             <div class="text-box">
               <i class="fa fa-globe" aria-hidden="true">English</i>
@@ -29,11 +33,14 @@
         </div>
       </div>
       <div class="header-row-2-color">
-        <div class="row">
+        <div class="pageMargin">
           <div class="col col-50 h-100">
             <div class="logo">
             </div>
           </div>
+
+          <!--            Menù           -->
+
           <div class="col col-50 h-100">
             <div class="navcontainer">
               <nav class="nav">
@@ -53,14 +60,12 @@
           </div>
         </div>
       </div>
-      <!--        Fine Header       -->
-
-      <!--  Inizio Body -->
-
       <div class="body-color">
-        <div class="row">
+        <div class="pageMargin">
           <div class="col col-33 h-400">
-            <div class="mainPhrase">
+            <!--            Inizio jumbotron           -->
+
+            <div class="jumbotron">
               <h1>There's a better way to grown.</h1>
               <p>Marketing, sales, and service software that helps your business grow without compromise. Because “good for the business” should also mean “good for the customer.”</p>
               <button class="button getHubSpot"><span>GetHubspotFree</span></button>
@@ -73,20 +78,25 @@
             </div>
           </div>
         </div>
-      </div>
 
-      <!--        Fine Sezione 1       -->
-
-      <div class="separator">
       </div>
-      <div class="body-color2">
-        <div class="row">
-          <div class="col col-100 h-800">
-            <div class="powerfull">
-              <img src="img/cubo.png" alt="IMMAGINE">
-              <h2>Powerfull Alone. Better Together</h2>
-              <p>HubSpot offers a full stack of software for marketing,sales and customer services, with a completlyfree CRM at it's core. They're powerful alone - but even better when used together</p>
+    </header>
+    <!--        Fine Header       -->
+    <div class="separator">
+    </div>
+    <div class="body-color2">
+      <div class="pageMargin">
+        <div class="col col-100">
+          <div class="row">
+            <div class="col-100 h-350">
+              <div class="powerfull">
+                <img src="img/Integration.webp" alt="IMMAGINE">
+                <h2>Powerfull Alone. Better Together</h2>
+                <p>HubSpot offers a full stack of software for marketing,sales and customer services, with a completlyfree CRM at it's core. They're powerful alone - but even better when used together</p>
+              </div>
             </div>
+          </div>
+          <div class="row">
             <div class="col col-100 h-250 freeHubspot">
               <div class="col col-33 h-250">
                 <div class="learn-more">
@@ -94,172 +104,203 @@
                   <button class="cardsbutton getHubSpot"><span>Learn More</span></button>
                 </div>
               </div>
-              <div class="col col-67 h-250">
+              <div class="col col-67">
                 <div class="learn-more-text">
                   <div class="freeCRM">
                     <h2>FreeHubSpot CRM</h2>
                     <p>Everything you need to organize, track, build better relationship with lad and customers. Yes it's 100% free.Forever</p>
+                    <h2>Popular Feature</h2>
+                    <i class="fa fa-check-circle " aria-hidden="true"><span>Contact Insights</span></i>
+                    <i class="fa fa-check-circle " aria-hidden="true"><span>Deals</span></i>
+                    <i class="fa fa-check-circle " aria-hidden="true"><span>Task</span></i>
                   </div>
-                  <h2>Popular Feature</h2>
-                  <i class="fa fa-check-circle " aria-hidden="true"><span>Contact Insights</span></i>
-                  <i class="fa fa-check-circle " aria-hidden="true"><span>Deals</span></i>
-                  <i class="fa fa-check-circle " aria-hidden="true"><span>Task</span></i>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col col-100 h-550">
-            <div class="col col-25 h-550 cards">
-                <img src="img/mkthub.png" alt="Scatola">
-                <h2>Marketing Hub</h2>
-                <p>Marketing Software to help you grown traffic, convert more visitors, and run a complete inbound marketing campaigns at scale.</p>
-                <hr>
-                <h2 class="bullet-list-h2">Popular Feature</h2>
-                <ul class="bullet-list">
-                  <li><i class="fa fa-check-circle cardscheck" aria-hidden="true"><span>Lead Generation</span></i></li>
-                  <li><i class="fa fa-check-circle cardscheck" aria-hidden="true"><span>Marketing Automation</span></i></li>
-                  <li><i class="fa fa-check-circle cardscheck" aria-hidden="true"><span>Analytics</span></i></li>
-                </ul>
-                <button class="cardsbutton getHubSpot"><span>Learn More</span></button>
-            </div>
-            <div class="col col-12 h-500">
-            </div>
-            <div class="col col-25 h-550 cards saleshub">
-                <img src="img/valg.png" alt="Valigietta">
-                <h2>Sales Hub</h2>
-                <p>Time saving sale software that helps you get deeper insights into prospects, automate the task you hate and close deals more faster.</p>
-                <hr>
-                <h2 class="bullet-list-h2">Popular Feature</h2>
-                <ul class="bullet-list">
-                  <li><i class="fa fa-check-circle cardscheck" aria-hidden="true"><span>Email Tracking</span></i></li>
-                  <li><i class="fa fa-check-circle cardscheck" aria-hidden="true"><span>Meeting Scheduling</span></i></li>
-                  <li><i class="fa fa-check-circle cardscheck" aria-hidden="true"><span>Email Automation</span></i></li>
-                </ul>
-                <button class="cardsbutton getHubSpot"><span>Learn More</span></button>
-            </div>
-            <div class="col col-12 h-550">
-            </div>
-            <div class="col col-25 h-550 cards">
-                <img src="img/headst.png" alt="Tavola">
-                <h2 class="pro">Service Hub</h2>
-                <p>Customer service software to help you connect with customers, exceed expectations, and turn them into promoters that grown your buisness.</p>
-                <hr>
-                <h2 class="bullet-list-h2">Popular Feature</h2>
-                <ul class="bullet-list">
-                  <li><i class="fa fa-check-circle cardscheck" aria-hidden="true"><span>Tickets</span></i></li>
-                  <li><i class="fa fa-check-circle cardscheck" aria-hidden="true"><span>Customer Feedback</span></i></li>
-                  <li><i class="fa fa-check-circle cardscheck" aria-hidden="true"><span>Knowledge Base</span></i></li>
-                </ul>
-                <button class="cardsbutton getHubSpot"><span>Learn More</span></button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!--        Fine Sezione 2       -->
-
-      <div class="body-color3">
-        <div class="row">
-          <div class="col col-100 h-600">
-            <div class="tabtitle col col-100 h-200">
-              <h2>Learn and Grow with Award-winning support and a thriving community behind you</h2>
-              <p>You don't have to go it alone. Master the inbound methodology and get the most out of your tools with HubSpot's legendary customer support team and a community of thousands of marketing and sales pros just like you.</p>
-            </div>
-            <div class="tab col col-100 h-400">
-              <div class="tab-up col col-25 h-200">
-                <div class="tabcell">
-                  <i class="fa fa-handshake-o fa-3x" aria-hidden="true"></i>
-                  <h1>150</h1>
-                  <p>HubSpot User Groups</p>
+          <div class="row">
+            <div class="col col-100 cardssection">
+              <div class="col col-30">
+                <div class="cards marketingHub">
+                  <img src="img/mkthub.png" alt="Scatola">
+                  <h2>Marketing Hub</h2>
+                  <p>Marketing Software to help you grown traffic, convert more visitors, and run a complete inbound marketing <br> campaigns at scale.</p>
+                  <hr>
+                  <h2 class="bullet-list-h2">Popular Feature</h2>
+                  <ul class="bullet-list">
+                    <li><i class="fa fa-check-circle cardscheck" aria-hidden="true"><span>Lead Generation</span></i></li>
+                    <li><i class="fa fa-check-circle cardscheck" aria-hidden="true"><span>Marketing Automation</span></i></li>
+                    <li><i class="fa fa-check-circle cardscheck" aria-hidden="true"><span>Analytics</span></i></li>
+                  </ul>
+                  <button class="cardsbutton getHubSpot"><span>Learn More</span></button>
                 </div>
               </div>
-              <div class="tab-up col col-25 h-200">
-                <div class="tabcell">
-                  <h1>4.5M</h1>
-                  <p>HubSpot User Groups</p>
+              <div class="col col-30 serviceHub">
+                <div class="cards">
+                  <img src="img/headst.png" alt="Tavola">
+                  <h2 class="pro">Service Hub</h2>
+                  <p>Customer service software to help you connect with customers, exceed expectations, and turn them into promoters that grown your buisness.</p>
+                  <hr>
+                  <h2 class="bullet-list-h2">Popular Feature</h2>
+                  <ul class="bullet-list">
+                    <li><i class="fa fa-check-circle cardscheck" aria-hidden="true"><span>Tickets</span></i></li>
+                    <li><i class="fa fa-check-circle cardscheck" aria-hidden="true"><span>Customer Feedback</span></i></li>
+                    <li><i class="fa fa-check-circle cardscheck" aria-hidden="true"><span>Knowledge Base</span></i></li>
+                  </ul>
+                  <button class="cardsbutton getHubSpot"><span>Learn More</span></button>
                 </div>
               </div>
-              <div class="tab-up col col-25 h-200">
-                <div class="tabcell">
-                  <h1>155K</h1>
-                  <p>Monthly Visits</p>
-                </div>
-              </div>
-              <div class="col col-25 h-200 lastcellup">
-                <div class="tabcell">
-                  <h1>21K</h1>
-                  <p>Certified Professionals</p>
-                </div>
-              </div>
-              <div class="tab-down col col-25 h-200">
-                <div class="tabcell">
-                  <h1>200</h1>
-                  <p>Registration attendees</p>
-                </div>
-              </div>
-              <div class="tab-down col col-25 h-200">
-                <div class="tabcell">
-                  <i class="fa fa-globe fa-3x" aria-hidden="true"></i>
-                  <h1>6</h1>
-                  <p>Integrations</p>
-                </div>
-              </div>
-              <div class="tab-down col col-25 h-200">
-                <div class="tabcell">
-                  <i class="fa fa-comments fa-2x" aria-hidden="true"></i>
-                  <h1>2.6M</h1>
-                  <p>Languages</p>
-                </div>
-              </div>
-              <div class="col col-25 h-200">
-                <div class="tabcell">
-                  <h1>5K</h1>
-                  <p>Profiles and Counting</p>
+              <div class="col-30 saleshub">
+                <div class="cards">
+                  <img src="img/valg.png" alt="Valigietta">
+                  <h2>Sales Hub</h2>
+                  <p>Time saving sale software that helps you get deeper insights into prospects, automate the task you hate and close deals more faster.</p>
+                  <hr>
+                  <h2 class="bullet-list-h2">Popular Feature</h2>
+                  <ul class="bullet-list">
+                    <li><i class="fa fa-check-circle cardscheck" aria-hidden="true"><span>Email Tracking</span></i></li>
+                    <li><i class="fa fa-check-circle cardscheck" aria-hidden="true"><span>Meeting Scheduling</span></i></li>
+                    <li><i class="fa fa-check-circle cardscheck" aria-hidden="true"><span>Email Automation</span></i></li>
+                  </ul>
+                  <button class="cardsbutton getHubSpot"><span>Learn More</span></button>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
 
-      <!--        Fine Sezione 3     -->
-
-      <div class="header-row-2-color">
-        <div class="row">
-          <div class="col col-100 h-700">
-            <div class="sect4 col col-100 h-300">
-              <div class="numb col col-33 h-300">
-                <h1>64,500</h1>
-                <p>customers in over 120 countries growing their businesses with HubSpot</p>
-              </div>
-              <div class="logos col col-67 h-300">
-              <img src="img/loghi.png" alt="">
+    <div class="body-color3">
+      <div class="pageMargin">
+        <div class="col col-100">
+          <div class="tabtitle col col-100">
+            <h2>Learn and Grow with Award-winning support and a thriving community behind you</h2>
+            <p>You don't have to go it alone. Master the inbound methodology and get the most out of your tools with HubSpot's legendary customer support team and a community of thousands of marketing and sales pros just like you.</p>
+          </div>
+          <div class="tab col col-100">
+            <div class="tab-up col col-25">
+              <div class="tabcell plusMargin">
+                <i class="fa fa-handshake-o fa-2x" aria-hidden="true"></i>
+                <h1>150</h1>
+                <p>HubSpot User Groups</p>
               </div>
             </div>
-            <div class="col col-100 h-400">
-              <div class="sect4-text col col-67 h-400">
-                <h1>Start Growing With HubSpot Today</h1>
-                <p>With tools to make every part of your process more human and a support team excited to help you, getting started with inbound has never been easier.</p>
-                <button class="button getHubSpot"><span>GetHubspotFree</span></button>
-                <p class="subtitle">Get started with Free tools, and upgrades as you grown</p>
+            <div class="tab-up col col-25">
+              <div class="tabcell">
+                <img src="img/blog.svg" alt="">
+                <h1>4.5M</h1>
+                <p>HubSpot User Groups</p>
               </div>
-              <div class="col col-33 h-400">
-                <div class="person">
-                  <img src="img/people.png" alt="Tizia">
-                </div>
+            </div>
+            <div class="tab-up col col-25">
+              <div class="tabcell">
+                <img src="img/academy.svg" alt="">
+                <h1>155K</h1>
+                <p>Monthly Visits</p>
+              </div>
+            </div>
+            <div class="col col-25 lastcellup">
+              <div class="tabcell">
+                <img src="img/inbound.svg" alt="">
+                <h1>21K</h1>
+                <p>Certified Professionals</p>
+              </div>
+            </div>
+            <div class="tab-down col col-25 ">
+              <div class="tabcell">
+                <img src="img/connect.svg" alt="">
+                <h1>200</h1>
+                <p>Registration attendees</p>
+              </div>
+            </div>
+            <div class="tab-down col col-25">
+              <div class="tabcell">
+                <i class="fa fa-globe fa-2x" aria-hidden="true"></i>
+                <h1>6</h1>
+                <p>Integrations</p>
+              </div>
+            </div>
+            <div class="tab-down col col-25">
+              <div class="tabcell">
+                <i class="fa fa-comments fa-2x" aria-hidden="true"></i>
+                <h1>2.6M</h1>
+                <p>Languages</p>
+              </div>
+            </div>
+            <div class="col col-25 ">
+              <div class="tabcell">
+                <img src="img/growthub.svg" alt="">
+                <h1>5K</h1>
+                <p>Profiles and Counting</p>
               </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
 
-      <!--        Fine Sezione 4       -->
+    <!--        Fine Sezione 2     -->
 
-      <footer>
+    <div class="header-row-2-color">
+      <div class="pageMargin">
+        <div class="col col-100">
+          <div class="col col-100">
+            <div class="numb col col-33">
+              <h1>64,500</h1>
+              <p>customers in over 120 countries growing their businesses with HubSpot</p>
+            </div>
+            <div class="loghi col col-67">
+              <div class="col col-25 logos">
+                <img src="img/atlassian.webp" alt="">
+              </div>
+              <div class="col col-25 logos">
+                <img src="img/doordash.webp" alt="">
+              </div>
+              <div class="col col-25 logos">
+                <img src="img/g2crowd.webp" alt="">
+              </div>
+              <div class="col col-25 logos">
+                <img src="img/purple.png" alt="">
+              </div>
+              <div class="col col-25 logos">
+                <img src="img/subaru.webp" alt="">
+              </div>
+              <div class="col col-25 logos">
+                <img src="img/wistia.webp" alt="">
+              </div>
+              <div class="col col-25 logos">
+                <img src="img/classpass.webp" alt="">
+              </div>
+              <div class="col col-25 logos">
+                <img src="img/vmware.webp" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="col col-100">
+            <div class="startGrow col col-67">
+              <h1>Start Growing With HubSpot Today</h1>
+              <p>With tools to make every part of your process more human and a support team excited to help you, getting started with inbound has never been easier.</p>
+              <button class="button getHubSpot"><span>GetHubspotFree</span></button>
+              <p class="subtitle">Get started with Free tools, and upgrades as you grown</p>
+            </div>
+            <div class="col col-33">
+              <div class="person">
+                <img src="img/people.png" alt="Tizia">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--        Fine Sezione 3      -->
+
+    <footer>
       <div class="footer-color">
-        <div class="row">
-          <div class="col col-100 h-400">
-            <div class="col col-25 h-400 footer">
+        <div class="pageMargin">
+          <div class="col col-100 ">
+            <div class="col col-25 footer">
               <h2>Increase Your Traffic</h2>
               <ul class="bullet-list-footer">
                 <li>Ad Software</li>
@@ -269,7 +310,7 @@
                 <li>Content Management System</li>
               </ul>
             </div>
-            <div class="col col-25 h-400 footer">
+            <div class="col col-25 footer">
               <h2>Connect With Leads</h2>
               <ul class="bullet-list-footer">
                 <li>Ad Software</li>
@@ -279,7 +320,7 @@
                 <li>Content Management System</li>
               </ul>
             </div>
-            <div class="col col-25 h-400 footer">
+            <div class="col col-25 footer">
               <h2>Close and Manage Leads</h2>
               <ul class="bullet-list-footer">
                 <li>Ad Software</li>
@@ -289,7 +330,7 @@
                 <li>Content Management System</li>
               </ul>
             </div>
-            <div class="col col-25 h-400 footer">
+            <div class="col col-25 footer">
               <h2>Support and Tools</h2>
               <ul class="bullet-list-footer">
                 <li>Ad Software</li>
@@ -297,28 +338,48 @@
                 <li>SEO Software</li>
                 <li>Social Media Software</li>
                 <li>Content Management System</li>
-                <li><button class="button contactHubSpot"><span>ContactHubSpot</span></button></li>
+                <li><button class="button contactHubSpot"><span>ContactHubSpot Support</span></button></li>
+                <li><i class="fa fa-facebook" aria-hidden="true"></i>
+                  <i class="fa fa-instagram footericons" aria-hidden="true"></i>
+                  <i class="fa fa-youtube-play footericons" aria-hidden="true"></i>
+                  <i class="fa fa-twitter footericons" aria-hidden="true"></i>
+                  <i class="fa fa-linkedin footericons" aria-hidden="true"></i>
+                </li>
               </ul>
             </div>
           </div>
-          <div class="col col-100 h-300">
-
+          <div class="row">
+            <div class="col-100 footer">
+              <nav>
+                <ul class="bottomlanguages">
+                  <li>English</li>
+                  <li>Spanish</li>
+                  <li>Deutsch</li>
+                  <li>Français</li>
+                  <li>Portoguês</li>
+                </ul>
+              </nav>
+            </div>
+            <div class="hrContainer">
+            </div>
+          </div>
+          <div class="col col-50 footer">
+            <img src="img/hslogo.svg" alt="">
+            <p>Copyright 2019 @ HubSpot Inc</p>
+          </div>
+          <div class="footer rightfooter">
+            <p>Legal Stuff</p>
+            <p>Privacy Police</p>
           </div>
         </div>
       </div>
-      </footer>
-
-      <!--        Fine Pagina       -->
-
-    </div>
-  </body>
+    </footer>
 
 
 
 
-
-
-
+  </div>
+</body>
 
 
 
